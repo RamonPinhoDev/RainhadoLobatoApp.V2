@@ -1,0 +1,13 @@
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\bin\Release\net9.0\Plugin.Maui.SwipeCardView.deps.json
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\bin\Release\net9.0\Plugin.Maui.SwipeCardView.dll
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\bin\Release\net9.0\Plugin.Maui.SwipeCardView.pdb
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\obj\Release\net9.0\Plugin.Maui.SwipeCardView.csproj.AssemblyReference.cache
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\obj\Release\net9.0\Plugin.Maui.SwipeCardView.GeneratedMSBuildEditorConfig.editorconfig
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\obj\Release\net9.0\Plugin.Maui.SwipeCardView.AssemblyInfoInputs.cache
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\obj\Release\net9.0\Plugin.Maui.SwipeCardView.AssemblyInfo.cs
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\obj\Release\net9.0\Plugin.Maui.SwipeCardView.csproj.CoreCompileInputs.cache
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\obj\Release\net9.0\Plugin.Maui.SwipeCardView.sourcelink.json
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\obj\Release\net9.0\Plugin.Maui.SwipeCardView.dll
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\obj\Release\net9.0\refint\Plugin.Maui.SwipeCardView.dll
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\obj\Release\net9.0\Plugin.Maui.SwipeCardView.pdb
+D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\Plugin.Maui.SwipeCardView\obj\Release\net9.0\ref\Plugin.Maui.SwipeCardView.dll
