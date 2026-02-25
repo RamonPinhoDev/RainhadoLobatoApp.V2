@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScheduleListUI.Views.LoginPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title=""
+    NavigationPage.HasNavigationBar="False"
+    Shell.NavBarIsVisible="False">
+
+    <Grid
+        Margin="20,150,20,40"
+        RowDefinitions="Auto, Auto, Auto, Auto,Auto,Auto, Auto, *"
+        RowSpacing="20">
+
+        <Image
+            Grid.Row="0"
+            HeightRequest="100"
+            Source="nossasenhora.png"
+            WidthRequest="100" />
+
+
+        <Frame
+            Grid.Row="2"
+            Padding="15"
+            BackgroundColor="White">
+            <VerticalStackLayout>
+                <Entry x:Name="EntEmail" Placeholder="Email" />
+
+                <Entry
+                    x:Name="EntPassword"
+                    IsPassword="True"
+                    Placeholder="Digite a sua senha" />
+            </VerticalStackLayout>
+        </Frame>
+        <Button
+            x:Name="BtnSignIn"
+            Grid.Row="3"
+            BackgroundColor="#2196f3"
+            Clicked="BtnSignIn_Clicked"
+            FontSize="Medium"
+            Text="Entrar" />
+        <ImageButton
+             Grid.Row="4"
+                x:Name="BtnBio"
+                Source="touchid.png"
+                Clicked="BtnBio_Clicked"
+                HeightRequest="96"
+                WidthRequest="400"
+                HorizontalOptions="Center" />
+        <HorizontalStackLayout
+            Grid.Row="5"
+            HorizontalOptions="Center"
+            Spacing="2"
+            VerticalOptions="EndAndExpand">
+            <Label Text="Não tem conta?" />
+            <Label
+                FontAttributes="Bold"
+                Text="Faça o registro agora"
+                TextColor="Blue">
+
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="TapRegister" Tapped="TapRegister_Tapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+
+
+        </HorizontalStackLayout>
+        <HorizontalStackLayout
+            Grid.Row="6"
+            HorizontalOptions="Center"
+            Spacing="2"
+            VerticalOptions="EndAndExpand">
+            <Label Text="Esqueceu a senha?" />
+            <Label
+    FontAttributes="Bold"
+    Text="Faça a recuperação"
+    TextColor="Blue">
+
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="TapResetSenha" Tapped="TapResetSenha_Tapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+        </HorizontalStackLayout>
+        <!--<ImageButton
+             Grid.Row="5"
+            WidthRequest="395"
+            HeightRequest="80"
+            x:Name ="LoginGoogle"
+            Source="googlelogin.png"
+            Clicked="LoginGoogle_Clicked"
+            />-->
+
+        <ActivityIndicator
+            x:Name="ACTRota"
+            IsRunning="{Binding IsBusy}"
+            Color="Blue" />
+
+
+    </Grid>
+
+</ContentPage>

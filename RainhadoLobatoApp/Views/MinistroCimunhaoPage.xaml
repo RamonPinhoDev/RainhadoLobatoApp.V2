@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleListUI.Views.MinistroCimunhaoPage"
+             >
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                FontAttributes="Bold"
+                FontSize="20"
+                Text="MESC "
+                VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+            Padding="0"
+            CornerRadius="16"
+            HasShadow="True">
+                <Image
+                Aspect="AspectFill"
+                HeightRequest="300"
+                Source="ministrocomunhao2.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+            FontSize="14"
+            LineHeight="1.4"
+            Text="A Pastoral dos Ministros Extraordinários da Sagrada Eucaristia é composta por leigos e leigas escolhidos para servir com reverência, amor e responsabilidade no ministério da distribuição da Comunhão.
+
+Esses ministros auxiliam o sacerdote durante as missas, levando a Eucaristia aos fiéis e, especialmente, aos doentes e idosos impossibilitados de participar da celebração. Seu serviço é sinal de comunhão, cuidado e presença da Igreja junto aos que mais necessitam.&#10;       Além do serviço litúrgico, os ministros vivem uma espiritualidade eucarística profunda, sendo chamados a testemunhar Cristo com a vida, pela oração, pelo serviço e pelo compromisso com a comunidade."
+            TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

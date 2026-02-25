@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleListUI.Views.EscolaFePage"
+             >
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+             FontAttributes="Bold"
+             FontSize="20"
+             Text="Escola da fé"
+             VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+         Padding="0"
+         CornerRadius="16"
+         HasShadow="True">
+                <Image
+             Aspect="AspectFill"
+             HeightRequest="300"
+             Source="estudobiblico.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+         FontSize="14"
+         LineHeight="1.4"
+         Text="A Escola da Fé é um espaço de formação e aprofundamento espiritual para leigos que desejam conhecer melhor a doutrina da Igreja, crescer na fé e viver com mais consciência sua missão cristã.&#10;   Está sustentada no tripé da Igreja Católica: Tradição, Sagradas Escrituras e Magistério, garantindo que os ensinamentos transmitidos estejam em plena comunhão com a fé da Igreja.&#10;
+
+Por meio de encontros com temas bíblicos, litúrgicos, teológicos e pastorais, a Escola da Fé oferece uma base sólida para quem deseja servir melhor nas pastorais, preparar-se para os sacramentos ou simplesmente fortalecer sua caminhada com Deus.&#10;    Aberta a todos os que têm sede de aprender, a Escola da Fé é um convite ao discipulado: ouvir, refletir, partilhar e colocar em prática os ensinamentos de Cristo"
+         TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

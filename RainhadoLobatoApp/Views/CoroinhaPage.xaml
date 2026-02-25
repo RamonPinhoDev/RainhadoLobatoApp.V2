@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleListUI.Views.CoroinhaPage"
+             >
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                 FontAttributes="Bold"
+                 FontSize="20"
+                 Text="Acólitos e Coroinhas"
+                 VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+             Padding="0"
+             CornerRadius="16"
+             HasShadow="True">
+                <Image
+                 Aspect="AspectFill"
+                 HeightRequest="300"
+                 Source="coroinhas2.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+             FontSize="14"
+             LineHeight="1.4"
+             Text="A Pastoral dos Cerimoniaristas e Coroinhas tem como missão servir com reverência e amor ao altar do Senhor. Formada por crianças, adolescentes e jovens, essa pastoral auxilia diretamente nas celebrações litúrgicas, contribuindo para que tudo ocorra com ordem, beleza e espiritualidade.&#10;
+              Os coroinhas são responsáveis por auxiliar o padre durante as missas e demais ritos, com gestos simples, mas cheios de significado e fé. Já os cerimoniaristas coordenam o serviço do altar, orientando os demais e zelando para que cada celebração seja bem conduzida, de acordo com a liturgia da Igreja.&#10;
+              Servir ao altar é estar mais perto de Jesus."
+             TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

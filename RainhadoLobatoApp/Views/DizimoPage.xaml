@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScheduleListUI.Views.DizimoPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                 FontAttributes="Bold"
+                 FontSize="20"
+                 Text="Dízimo"
+                 VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+             Padding="0"
+             CornerRadius="16"
+             HasShadow="True">
+                <Image
+                 Aspect="AspectFill"
+                 HeightRequest="300"
+                 Source="dizimo3.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+             FontSize="14"
+             LineHeight="1.4"
+            Text="A Pastoral do Dízimo tem como missão conscientizar os fiéis sobre a importância do dízimo como um ato de        fé, gratidão e compromisso com a obra de Deus. Não se trata apenas de uma contribuição financeira, mas        de uma resposta generosa ao amor de Deus e ao chamado à corresponsabilidade na vida da Igreja.          Com espírito de serviço e acolhimento, nossa pastoral orienta e acompanha os dizimistas, promove         formações, visitas e campanhas de conscientização, sempre valorizando o gesto livre e amoroso de partilhar.          O dízimo é semente de comunhão e sustento da missão da paróquia – seja na evangelização, na         manutenção da igreja, na formação pastoral ou na caridade com os mais necessitados.          “Cada um contribua segundo o que tiver decidido em seu coração, sem tristeza nem constrangimento, pois           Deus ama quem dá com alegria.” (2Cor 9,7)  "
+             TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

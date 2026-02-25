@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleListUI.Views.AcolhimentoPage"
+             >
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                FontAttributes="Bold"
+                FontSize="20"
+                Text="Acolhimento"
+                VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+            Padding="0"
+            CornerRadius="16"
+            HasShadow="True">
+                <Image
+                Aspect="AspectFill"
+                HeightRequest="300"
+                Source="acolhimento2.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+            FontSize="14"
+            LineHeight="1.4"
+            Text="A Pastoral do Acolhimento tem como missão receber cada pessoa com alegria, respeito e espírito fraterno, criando um ambiente de comunhão e proximidade nas celebrações e atividades da paróquia.&#10;  Inspirada no exemplo de Jesus, que acolhia a todos com amor, essa pastoral é o rosto acolhedor da Igreja, especialmente para quem chega pela primeira vez ou retorna após um tempo distante. Com um simples gesto, um sorriso ou uma palavra amiga, os membros dessa pastoral ajudam a tornar a comunidade mais humana e evangelizadora.&#10;  Seja na porta da igreja, nos eventos paroquiais ou em visitas, a Pastoral do Acolhimento está sempre pronta para servir, escutar e incluir."
+            TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

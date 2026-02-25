@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleListUI.Views.TercoHomemPage"
+             >
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                 FontAttributes="Bold"
+                 FontSize="20"
+                 Text="Terço dos Homens"
+                 VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+             Padding="0"
+             CornerRadius="16"
+             HasShadow="True">
+                <Image
+                 Aspect="AspectFill"
+                 HeightRequest="300"
+                 Source="tercohomem2.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+             FontSize="14"
+             LineHeight="1.4"
+             Text="O Terço dos Homens é um movimento de fé, oração e devoção mariana que reúne homens de todas as idades para rezar juntos o Santo Terço. Com simplicidade e união, buscamos fortalecer a espiritualidade masculina, o amor à família e o compromisso com a Igreja. n&#10;        Na Paróquia Nossa Senhora das Dores, nos encontramos semanalmente para rezar, partilhar a Palavra e crescer na fé. Cada encontro é um momento de profunda comunhão com Deus, com Maria e entre irmãos.
+
+O Terço dos Homens é também um testemunho público: homens que assumem sua fé com firmeza, coragem e humildade, sendo exemplo dentro de casa, no trabalho e na comunidade."
+             TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

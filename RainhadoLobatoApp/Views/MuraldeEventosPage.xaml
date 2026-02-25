@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleListUI.Views.MuraldeEventosPage"
+              xmlns:models="clr-namespace:ScheduleListUI.Models"
+             >
+    <!--<VerticalStackLayout>-->
+    <Grid  RowDefinitions="Auto,Auto, Auto, *">
+    <VerticalStackLayout>
+        
+    <Label
+     Grid.Row="0"
+     Margin="10,0,0,0"
+     FontAttributes="Bold"
+     FontSize="30"
+     Text="Mural de eventos"
+        HorizontalOptions="Center"
+        />
+        </VerticalStackLayout>
+        <ScrollView  Grid.Row="1">
+            <CollectionView ItemsSource="{Binding Eventos}"
+                ItemsLayout="VerticalGrid, 2"
+                            
+                              x:Name="EvenSingle"
+                SelectionMode="Single"
+                SelectionChanged="EvenSingle_SelectionChanged"
+                            
+                            
+                            >
+                
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:MuraldeEventos">
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+
+                        <Image Grid.Row="0"
+                       Source="{Binding Img}"
+                       Aspect="AspectFill"
+                       HeightRequest="200"
+                       WidthRequest="200"
+                              
+                       HorizontalOptions="Center" />
+
+                        <!-- Nome -->
+                        <Label Grid.Row="1"
+                       Text="{Binding Titulo}"
+                       FontAttributes="Bold"
+                       LineBreakMode="TailTruncation"
+                       HorizontalOptions="Center" />
+                        
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+                </ScrollView>
+        </Grid>
+    <!--</VerticalStackLayout>-->
+</ContentPage>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleListUI.Views.CatequesePage"
+             >
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                FontAttributes="Bold"
+                FontSize="20"
+                Text="Catequese"
+                VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+            Padding="0"
+            CornerRadius="16"
+            HasShadow="True">
+                <Image
+                Aspect="AspectFill"
+                HeightRequest="300"
+                Source="catequese2.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+            FontSize="14"
+            LineHeight="1.4"
+            Text="A Pastoral da Catequese é responsável por formar discípulos de Jesus, preparando crianças, adolescentes, jovens e adultos para os sacramentos da Iniciação Cristã: Batismo, Eucaristia e Crisma.&#10;   A catequese é um caminho de encontro com Cristo vivo, por meio da Palavra, da oração, da partilha e da vida em comunidade. Os catequistas são evangelizadores que, com amor e dedicação, ajudam os catequizandos a crescerem na fé e a assumirem seu lugar na Igreja.&#10;   Na Paróquia Nossa Senhora das Dores, a catequese é feita com responsabilidade, espiritualidade e carinho, envolvendo também as famílias nesse processo de amadurecimento cristão."
+            TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

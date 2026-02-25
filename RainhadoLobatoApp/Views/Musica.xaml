@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScheduleListUI.Views.Musica"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="16"
+            BackgroundColor="White"
+            Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    Text="Música"
+                    VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+                Padding="0"
+                CornerRadius="16"
+                HasShadow="True">
+                <Image
+                    Aspect="AspectFill"
+                    HeightRequest="300"
+                    Source="music2.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+                FontSize="14"
+                LineHeight="1.4"
+                Text="O Ministério de Música é muito mais do que cantar ou tocar: é servir a Deus com os dons que Ele mesmo nos deu. Nossa missão é conduzir o povo de Deus à oração e ao louvor por meio da música litúrgica, tornando cada celebração um verdadeiro encontro com Cristo.&#10;          Com responsabilidade e espiritualidade, preparamos os cânticos de acordo com o tempo litúrgico e                 participamos ativamente das missas, novenas, adorações e demais eventos paroquiais. Cada nota, cada voz,                 é uma oferta de amor ao Senhor."
+                TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

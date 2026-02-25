@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScheduleListUI.Views.NossaHistoria"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ScheduleListUI.ViewModels"
+    Title="Nossa História">
+
+    <ContentPage.BindingContext>
+        <local:NossHistoriaViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid BackgroundColor="White">
+
+        <Label
+            Margin="0,10"
+            FontAttributes="Bold"
+            FontSize="14"
+            HorizontalOptions="Center"
+            Text="Conheça mais sobre a história da nossa comunidade."
+            TextColor="#1e89df" />
+
+
+        <CollectionView
+            Margin="10,250,10,10"
+            HorizontalOptions="Center"
+            ItemsSource="{Binding NossHistoria}"
+            SelectionMode="None">
+
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout ItemSpacing="20" Orientation="Horizontal" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout HorizontalOptions="Center" Spacing="5">
+                        <Border
+                            BackgroundColor="Transparent"
+                            HeightRequest="95"
+                            StrokeShape="RoundRectangle 16"
+                            StrokeThickness="0"
+                            WidthRequest="95">
+                            <ImageButton
+                                BackgroundColor="Transparent"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:NossHistoriaViewModel}}, Path=SelecionarItemCommand}"
+                                CommandParameter="{Binding .}"
+                                CornerRadius="15"
+                                HeightRequest="100"
+                                Source="{Binding ImageUrl}"
+                                WidthRequest="100" />
+                        </Border>
+
+                        <Label
+                            FontAttributes="Bold"
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Center"
+                            LineBreakMode="WordWrap"
+                            MaxLines="2"
+                            Text="{Binding Nome}"
+                            VerticalTextAlignment="Center" />
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

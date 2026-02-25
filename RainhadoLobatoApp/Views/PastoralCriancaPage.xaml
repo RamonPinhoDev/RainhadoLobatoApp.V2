@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleListUI.Views.PastoralCriancaPage"
+             >
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                 FontAttributes="Bold"
+                 FontSize="20"
+                 Text="Pastoral da criança"
+                 VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+             Padding="0"
+             CornerRadius="16"
+             HasShadow="True">
+                <Image
+                 Aspect="AspectFill"
+                 HeightRequest="300"
+                 Source="crianca.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+             FontSize="14"
+             LineHeight="1.4"
+             Text="Nossa missão é acompanhar de perto as famílias, oferecendo orientação, apoio e escuta, com base em ações simples, mas transformadoras. Atendemos todas as crianças que necessitam de uma atenção especial, independentemente da religião praticada por seus pais.&#10;       Por meio de visitas domiciliares, pesagem, rodas de conversa e momentos de espiritualidade, buscamos construir uma rede de solidariedade e esperança. A fé, o conhecimento e o amor caminham juntos para garantir dignidade e vida plena a cada criança."
+             TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

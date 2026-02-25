@@ -1,0 +1,542 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property._MvvmToolkitIsUsingWindowsRuntimePack = false
+build_property.CsWinRTComponent = 
+build_property.CsWinRTAotOptimizerEnabled = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.TargetFramework = net9.0-ios
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ScheduleListUI
+build_property.ProjectDir = D:\Udemy\ProjetosC#\MAUI\RainhadoLobato\RainhadoLobatoApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/AcolhimentoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.AcolhimentoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AcolhimentoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AcolhimentoPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/AdvogadoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.AdvogadoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AdvogadoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AdvogadoPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/Aguarde.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.Aguarde.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Aguarde.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Aguarde.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ArCondicionadoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ArCondicionadoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ArCondicionadoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ArCondicionadoPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ArtesanatoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ArtesanatoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ArtesanatoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ArtesanatoPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ArtesaosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ArtesaosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ArtesaosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ArtesaosPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/AsistenciaTecnicaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.AsistenciaTecnicaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AsistenciaTecnicaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AsistenciaTecnicaPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/BabaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.BabaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BabaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BabaPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/BarbeiroPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.BarbeiroPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BarbeiroPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BarbeiroPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/BikePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.BikePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BikePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BikePage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/BuffetPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.BuffetPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BuffetPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BuffetPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/CabelereiroPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.CabelereiroPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CabelereiroPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CabelereiroPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/CarroPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.CarroPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CarroPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CarroPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/CatequesePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.CatequesePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CatequesePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CatequesePage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ChaveiroPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ChaveiroPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ChaveiroPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ChaveiroPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ComentarioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ComentarioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ComentarioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ComentarioPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ComputadorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ComputadorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ComputadorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ComputadorPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/Comunicacao.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.Comunicacao.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Comunicacao.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Comunicacao.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/CondutorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.CondutorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CondutorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CondutorPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ConsultoriaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ConsultoriaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ConsultoriaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ConsultoriaPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ContadorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ContadorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ContadorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ContadorPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/Contato.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.Contato.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Contato.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Contato.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ContribuicaoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ContribuicaoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ContribuicaoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ContribuicaoPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/CoroinhaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.CoroinhaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CoroinhaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CoroinhaPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/CorretorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.CorretorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CorretorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CorretorPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/CostureiraPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.CostureiraPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CostureiraPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CostureiraPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/CuidadorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.CuidadorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CuidadorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CuidadorPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/DentistaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.DentistaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DentistaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DentistaPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/DepilacaoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.DepilacaoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DepilacaoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DepilacaoPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/DespachantePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.DespachantePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DespachantePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DespachantePage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/DiaristaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.DiaristaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DiaristaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DiaristaPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/DizimoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.DizimoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DizimoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DizimoPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/EletricistaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.EletricistaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EletricistaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EletricistaPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/EnfermeiroPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.EnfermeiroPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EnfermeiroPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EnfermeiroPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/EscolaFePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.EscolaFePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EscolaFePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EscolaFePage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/Evagelismo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.Evagelismo.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Evagelismo.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Evagelismo.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/EventosFotosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.EventosFotosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EventosFotosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EventosFotosPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/EventosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.EventosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EventosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EventosPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/Familia.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.Familia.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Familia.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Familia.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/FisioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.FisioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FisioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FisioPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/FotografiaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.FotografiaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FotografiaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FotografiaPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/GamePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.GamePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GamePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GamePage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/IgrejasPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.IgrejasPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\IgrejasPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\IgrejasPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ImpressorasPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ImpressorasPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ImpressorasPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ImpressorasPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/inscricaoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.inscricaoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\inscricaoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\inscricaoPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/Jovens.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.Jovens.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Jovens.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Jovens.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ManicurePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ManicurePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ManicurePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ManicurePage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/MecanicoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.MecanicoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MecanicoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MecanicoPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/MejPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.MejPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MejPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MejPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/Menu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.Menu.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Menu.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Menu.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/MinistroCimunhaoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.MinistroCimunhaoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MinistroCimunhaoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MinistroCimunhaoPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/MnistroPalavraPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.MnistroPalavraPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MnistroPalavraPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MnistroPalavraPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ModaebelezaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ModaebelezaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ModaebelezaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ModaebelezaPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/MotoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.MotoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MotoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MotoPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/MotoristaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.MotoristaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MotoristaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MotoristaPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/MotoTaxiPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.MotoTaxiPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MotoTaxiPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MotoTaxiPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/MuraldeEventosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.MuraldeEventosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MuraldeEventosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MuraldeEventosPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/Musica.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.Musica.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Musica.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Musica.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/NossaHistoria.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.NossaHistoria.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NossaHistoria.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NossaHistoria.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/NutriPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.NutriPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NutriPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NutriPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/Oracaopage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.Oracaopage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Oracaopage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Oracaopage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/Parocos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.Parocos.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Parocos.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Parocos.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/PastoralCriancaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.PastoralCriancaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PastoralCriancaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PastoralCriancaPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/PedreiroPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.PedreiroPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PedreiroPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PedreiroPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/PintorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.PintorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PintorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PintorPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/PsicologoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.PsicologoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PsicologoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PsicologoPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/Recados.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.Recados.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Recados.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Recados.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/RedefinirSenha.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.RedefinirSenha.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RedefinirSenha.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RedefinirSenha.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ReformaeRepsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ReformaeRepsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ReformaeRepsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ReformaeRepsPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/SalgadosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.SalgadosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SalgadosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SalgadosPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/SaudePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.SaudePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SaudePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SaudePage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ScheduleListView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ScheduleListView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ScheduleListView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ScheduleListView.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/ServDomesticosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.ServDomesticosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ServDomesticosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ServDomesticosPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/SmartphonesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.SmartphonesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SmartphonesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SmartphonesPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/SobrancelhaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.SobrancelhaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SobrancelhaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SobrancelhaPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/TalentosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.TalentosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TalentosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TalentosPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/TercoHomemPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.TercoHomemPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TercoHomemPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TercoHomemPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/TvsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.TvsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TvsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TvsPage.xaml
+
+[D:/Udemy/ProjetosC\#/MAUI/RainhadoLobato/RainhadoLobatoApp/Views/VeterinarioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ScheduleListUI.Views.VeterinarioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VeterinarioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VeterinarioPage.xaml

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScheduleListUI.Views.Familia"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    >
+
+
+
+
+
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="20" BackgroundColor="White">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    Text="Família"
+                    VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+                Padding="0"
+                CornerRadius="16"
+                HasShadow="True">
+                <Image
+                    Aspect="AspectFill"
+                    HeightRequest="300"
+                    Source="familia2.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+                FontSize="14"
+                LineHeight="1.4"
+                Text="A Pastoral da Família é um serviço de amor, cuidado e evangelização dedicado à valorização da vida e da vocação familiar. Nossa missão é acompanhar as famílias em todas as suas etapas, desde o namoro e noivado, passando pela preparação para o matrimônio, até os desafios da vida familiar cotidiana.&#10;     Inspirados pela Sagrada Família de Nazaré, promovemos encontros, formações, momentos de oração e visitas, buscando fortalecer os laços de fé, amor e unidade dentro dos lares. Também atuamos junto a casais em situação de sofrimento ou fragilidade, oferecendo acolhida e orientação à luz do Evangelho.    Acreditamos que uma família firmada em Cristo é base para uma sociedade mais justa, fraterna e cheia de esperança."
+                TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

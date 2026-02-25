@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScheduleListUI.Views.Jovens"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+
+
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="16"
+            BackgroundColor="White"
+            Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    Text="Jovens"
+                    TextColor="Black"
+                    VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+                Padding="0"
+                CornerRadius="16"
+                HasShadow="True">
+                <Image
+                    Aspect="AspectFill"
+                    HeightRequest="300"
+                    Source="jovens2.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+                FontSize="14"
+                LineHeight="1.4"
+                Text="A Pastoral da Juventude é formada por jovens que desejam viver a fé de forma autêntica, alegre e        comprometida. Nosso objetivo é aproximar a juventude de Cristo, criando espaços de escuta, amizade, oração e ação.         Realizamos encontros, retiros, atividades culturais e sociais, sempre buscando integrar fé e vida. Aqui, o        jovem é protagonista, partilha suas experiências e descobre sua missão na Igreja e na sociedade.         Queremos uma juventude viva, firme na fé e ativa na comunidade. Juntos, seguimos com coragem, com o         coração em Deus e os pés na missão."
+                TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

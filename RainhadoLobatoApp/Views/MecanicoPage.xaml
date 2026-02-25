@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScheduleListUI.Views.MecanicoPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <Label
+            FontAttributes="Bold"
+            FontSize="Large"
+            HorizontalOptions="Start"
+            Text="Mecânico" />
+
+        <ScrollView>
+
+            <VerticalStackLayout Spacing="15">
+
+
+                <Border
+                    Padding="15"
+                    BackgroundColor="White"
+                    Stroke="LightGray"
+                    StrokeShape="RoundRectangle 10"
+                    StrokeThickness="1">
+                    <Grid Padding="0,5" ColumnDefinitions="*, 15">
+                        <Label FontSize="Medium" Text="Bicicleta">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="TapBarb1" Tapped="TapBarb1_Tapped" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <ImageButton
+                            x:Name="Arrow1"
+                            Grid.Column="1"
+                            BackgroundColor="Transparent"
+                            Clicked="Arrow1_Clicked"
+                            HeightRequest="15"
+                            Source="arrow.png" />
+                    </Grid>
+                </Border>
+
+                <Border
+                    Padding="15"
+                    BackgroundColor="White"
+                    Stroke="LightGray"
+                    StrokeShape="RoundRectangle 10"
+                    StrokeThickness="1">
+                    <Grid Padding="0,5" ColumnDefinitions="*, 15">
+                        <Label FontSize="Medium" Text="Carro">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="TapBarb2" Tapped="TapBarb2_Tapped" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <ImageButton
+                            x:Name="Arrow2"
+                            Grid.Column="1"
+                            BackgroundColor="Transparent"
+                            Clicked="Arrow2_Clicked"
+                            HeightRequest="15"
+                            Source="arrow.png" />
+                    </Grid>
+                </Border>
+
+
+                <Border
+                    Padding="15"
+                    BackgroundColor="White"
+                    Stroke="LightGray"
+                    StrokeShape="RoundRectangle 10"
+                    StrokeThickness="1">
+                    <Grid Padding="0,5" ColumnDefinitions="*, 15">
+                        <Label FontSize="Medium" Text="Moto">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="TapBarb3" Tapped="TapBarb3_Tapped" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <ImageButton
+                            x:Name="Arrow3"
+                            Grid.Column="1"
+                            BackgroundColor="Transparent"
+                            Clicked="Arrow3_Clicked"
+                            HeightRequest="15"
+                            Source="arrow.png" />
+                    </Grid>
+                </Border>
+
+
+
+
+
+
+
+
+            </VerticalStackLayout>
+
+
+
+
+        </ScrollView>
+
+
+        <HorizontalStackLayout
+            Grid.Row="4"
+            HorizontalOptions="Center"
+            Spacing="2"
+            VerticalOptions="EndAndExpand">
+
+            <Label Text="Quer oferecer os seus serviços?" />
+            <Label
+                FontAttributes="Bold"
+                Text="Entre aqui"
+                TextColor="Blue">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="TaoProf" Tapped="TaoProf_Tapped" />
+                </Label.GestureRecognizers>
+
+            </Label>
+
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

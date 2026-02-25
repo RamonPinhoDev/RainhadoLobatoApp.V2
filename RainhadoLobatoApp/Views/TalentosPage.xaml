@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScheduleListUI.Views.TalentosPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Talentos">
+    <VerticalStackLayout>
+
+        <Image Source="talentos.png" />
+
+        <Label
+            Margin="5"
+            FontAttributes="Bold"
+            FontSize="20"
+            HorizontalOptions="Center"
+            Text="Encontre um profissional na paróquia."
+            TextColor="black" />
+
+
+
+        <CollectionView
+            Margin="5"
+            BackgroundColor="Transparent"
+            ItemsSource="{Binding Talentos}"
+            SelectionMode="None">
+
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout ItemSpacing="20" Orientation="Horizontal" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout>
+                        <Border
+                            BackgroundColor="Transparent"
+                            HeightRequest="80"
+                            StrokeShape="RoundRectangle 16"
+                            StrokeThickness="0"
+                            WidthRequest="80">
+                            <ImageButton
+                                Aspect="Fill"
+                                BackgroundColor="Transparent"
+                                Command="{Binding BindingContext.NavegarTalentosCommand, Source={RelativeSource AncestorType={x:Type ContentPage}}}"
+                                CommandParameter="{Binding .}"
+                                CornerRadius="15"
+                                HeightRequest="80"
+                                Source="{Binding ImgUrl}"
+                                WidthRequest="80" />
+                        </Border>
+                        <Label
+                            FontAttributes="Bold"
+                            HorizontalTextAlignment="Center"
+                            LineBreakMode="WordWrap"
+                            MaxLines="2"
+                            Text="{Binding Nome}"
+                            TextColor="Black"
+                            VerticalTextAlignment="Center" />
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

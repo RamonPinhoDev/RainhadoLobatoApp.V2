@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleListUI.Views.MnistroPalavraPage"
+             >
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                FontAttributes="Bold"
+                FontSize="20"
+                Text="MP"
+                VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+            Padding="0"
+            CornerRadius="16"
+            HasShadow="True">
+                <Image
+                Aspect="AspectFill"
+                HeightRequest="300"
+                Source="minesteriopalavra2.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+            FontSize="14"
+            LineHeight="1.4"
+            Text="O Ministério da Palavra é composto por leigos e leigas que têm a missão de proclamar a Sagrada Escritura nas celebrações litúrgicas, tornando viva a Palavra de Deus no coração da assembleia.
+
+Com zelo, preparação e espiritualidade, os ministros da Palavra não apenas leem os textos bíblicos, mas os anunciam com fé, sendo instrumentos de Deus para tocar vidas e edificar a comunidade."
+            TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

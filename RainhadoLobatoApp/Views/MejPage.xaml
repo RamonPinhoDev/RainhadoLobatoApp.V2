@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleListUI.Views.MejPage"
+             >
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                 FontAttributes="Bold"
+                 FontSize="20"
+                 Text="Mej"
+                 VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+             Padding="0"
+             CornerRadius="16"
+             HasShadow="True">
+                <Image
+                 Aspect="AspectFill"
+                 HeightRequest="300"
+                 Source="mej2.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+             FontSize="14"
+             LineHeight="1.4"
+             Text="O MEJ (Movimento Eucarístico Jovem) é uma pastoral voltada para crianças, adolescentes e jovens que desejam viver uma amizade profunda com Jesus a partir da espiritualidade eucarística. Inspirado no coração de Jesus, o movimento forma jovens para rezar, servir e evangelizar com alegria e compromisso.&#10;     Na Paróquia Nossa Senhora das Dores, o MEJ é um espaço de encontro, formação, missão e vivência comunitária. Através de encontros semanais, celebrações, atividades culturais e ações solidárias, os jovens são chamados a crescer na fé, viver o amor ao próximo e fazer da própria vida uma oferta a Deus."
+             TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

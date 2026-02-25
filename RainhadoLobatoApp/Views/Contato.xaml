@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScheduleListUI.Views.Contato"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="">
+    <ScrollView>
+
+        <VerticalStackLayout
+            Padding="20"
+            BackgroundColor="White"
+            Spacing="30">
+
+            <!--  Título  -->
+            <Label
+                FontAttributes="Bold"
+                FontSize="28"
+                HorizontalOptions="Center"
+                Text="Contatos"
+                TextColor="#333"
+                TextDecorations="Underline" />
+
+            <!--  Telefone  -->
+            <Grid ColumnDefinitions="Auto,*" ColumnSpacing="15">
+                <Image
+                    HeightRequest="30"
+                    Source="phone_icon.png"
+                    VerticalOptions="Center"
+                    WidthRequest="30" />
+                <Label
+                    Grid.Column="1"
+                    FontSize="18"
+                    Text="(71) 98796-0462"
+                    TextColor="#444"
+                    VerticalOptions="Center" />
+            </Grid>
+
+            <!--  Email  -->
+            <Grid ColumnDefinitions="Auto,*" ColumnSpacing="15">
+                <Image
+                    HeightRequest="30"
+                    Source="email_icon.png"
+                    VerticalOptions="Center"
+                    WidthRequest="30" />
+                <Label
+                    Grid.Column="1"
+                    FontSize="18"
+                    Text="paroquia41nsdlobato@gmail.com"
+                    TextColor="#444"
+                    VerticalOptions="Center" />
+            </Grid>
+
+            <!--  Endereço  -->
+            <Grid ColumnDefinitions="Auto,*" ColumnSpacing="15">
+                <Image
+                    HeightRequest="30"
+                    Source="location_icon.png"
+                    VerticalOptions="Start"
+                    WidthRequest="30" />
+                <Label
+                    Grid.Column="1"
+                    FontSize="18"
+                    Text="Av. Afrânio Peixoto, S/N - Santa Luzia, Salvador - BA, 40470-630"
+                    TextColor="#444"
+                    VerticalOptions="Center" />
+            </Grid>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

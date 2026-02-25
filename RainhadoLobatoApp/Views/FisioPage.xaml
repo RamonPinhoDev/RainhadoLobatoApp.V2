@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScheduleListUI.Views.FisioPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Grid Margin="20" RowDefinitions="Auto,Auto, Auto, *">
+
+        <!--  SearchBar na primeira linha  -->
+        <VerticalStackLayout Grid.Row="0">
+            <Border
+                BackgroundColor="Transparent"
+                StrokeShape="RoundRectangle 16"
+                StrokeThickness="0">
+                <SearchBar
+                    x:Name="searchBar"
+                    Grid.Row="0"
+                    BackgroundColor="#E0E0E0"
+                    CancelButtonColor="Black"
+                    Placeholder="Buscar"
+                    TextChanged="searchBar_TextChanged" />
+            </Border>
+        </VerticalStackLayout>
+        <Label
+            Grid.Row="1"
+            Margin="10,0,0,0"
+            FontAttributes="Bold"
+            FontSize="30"
+            Text="Fisioterapeutas" />
+        <ActivityIndicator
+            x:Name="ACTRota"
+            IsRunning="{Binding IsBusy}"
+            Color="Blue" />
+        <ScrollView Grid.Row="2">
+            <ListView
+                x:Name="ProfSingle"
+                HasUnevenRows="True"
+                ItemSelected="ProfSingle_ItemSelected"
+                ItemsSource="{Binding Profissionais}"
+                SelectionMode="Single">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10" ColumnSpacing="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+
+
+                                </Grid.ColumnDefinitions>
+                                <Image
+                                    Grid.RowSpan="2"
+                                    Grid.Column="0"
+                                    Aspect="AspectFill"
+                                    HeightRequest="60"
+                                    Source="{Binding ImgUrl}"
+                                    VerticalOptions="Start"
+                                    WidthRequest="60" />
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontAttributes="Bold"
+                                    FontSize="18"
+                                    Text="{Binding Nome}" />
+
+                                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    FontAttributes="Italic"
+                                    LineBreakMode="WordWrap"
+                                    Text="{Binding Descricao}" />
+
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+
+
+        </ScrollView>
+        <HorizontalStackLayout Grid.Row="3">
+            <Grid Margin="5" ColumnSpacing="132">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+
+
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <ImageButton
+                    x:Name="BtnEsquerda"
+                    Grid.Column="0"
+                    BackgroundColor="Transparent"
+                    Clicked="BtnEsquerda_Clicked"
+                    HeightRequest="40"
+                    HorizontalOptions="Start"
+                    Source="setaesquerda.png"
+                    WidthRequest="40" />
+
+                <Label
+                    x:Name="LebelCountPage"
+                    Grid.Column="1"
+                    FontAttributes="Bold"
+                    FontSize="25"
+                    Text="1" />
+
+                <ImageButton
+                    x:Name="BtnDireita"
+                    Grid.Column="2"
+                    BackgroundColor="Transparent"
+                    Clicked="BtnDireita_Clicked"
+                    HeightRequest="40"
+                    HorizontalOptions="End"
+                    Source="setadireita.png"
+                    WidthRequest="40" />
+
+            </Grid>
+
+        </HorizontalStackLayout>
+    </Grid>
+</ContentPage>

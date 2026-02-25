@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScheduleListUI.Views.Evagelismo"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="16"
+            BackgroundColor="White"
+            Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    Text="Círculos Biblicos"
+                    VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+                Padding="0"
+                CornerRadius="16"
+                HasShadow="True">
+                <Image
+                    Aspect="AspectFill"
+                    HeightRequest="300"
+                    Source="circulobiblico.jpeg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+                FontSize="14"
+                LineHeight="1.4"
+                Text="A Pastoral do Círculo Bíblico tem como missão levar a Palavra de Deus às famílias, dentro de seus lares, seguindo o exemplo dos primeiros discípulos que evangelizavam de casa em casa. Cada encontro é um momento de escuta, partilha, oração e fortalecimento da fé em comunidade.&#10;      Trata-se de uma evangelização nas casas, onde irmãos se reúnem para refletir sobre as Sagradas Escrituras, tornando cada lar um lugar de comunhão, fé viva e presença do Senhor.&#10;  Quem vai à frente dessa missão é Nossa Senhora das Dores, que nos conduz, como verdadeira Mãe, a levar seu Filho Jesus aos corações, por meio da Santa Palavra."
+                TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+
+</ContentPage>

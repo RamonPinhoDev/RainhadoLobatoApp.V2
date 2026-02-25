@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleListUI.Views.CondutorPage"
+            >
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <Label
+     FontAttributes="Bold"
+     FontSize="Large"
+     HorizontalOptions="Start"
+     Text="Condotores" />
+
+        <ScrollView>
+
+            <VerticalStackLayout Spacing="15">
+                <Border
+             Padding="15"
+             BackgroundColor="White"
+             Stroke="LightGray"
+             StrokeShape="RoundRectangle 10"
+             StrokeThickness="1">
+                    <!--  Reutilizando estrutura para cada item  -->
+                    <Grid Padding="0,5" ColumnDefinitions="*, 15">
+                        <Label FontSize="Medium" Text="Motoristas">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="Tapmoto" Tapped="Tapmoto_Tapped" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <ImageButton
+                     x:Name="Arrow1"
+                     Grid.Column="1"
+                     BackgroundColor="Transparent"
+                     Clicked="Arrow1_Clicked"
+                     HeightRequest="15"
+                     HorizontalOptions="End"
+                     Source="arrow.png" />
+                    </Grid>
+                </Border>
+
+
+
+                <Border
+Padding="15"
+BackgroundColor="White"
+Stroke="LightGray"
+StrokeShape="RoundRectangle 10"
+StrokeThickness="1">
+                    <!--  Reutilizando estrutura para cada item  -->
+                    <Grid Padding="0,5" ColumnDefinitions="*, 15">
+                        <Label FontSize="Medium" Text="Moto taxistas">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="Taptaxi" Tapped="Taptaxi_Tapped" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <ImageButton
+        x:Name="Arrow2"
+        Grid.Column="1"
+        BackgroundColor="Transparent"
+        Clicked="Arrow2_Clicked"
+        HeightRequest="15"
+        HorizontalOptions="End"
+        Source="arrow.png" />
+                    </Grid>
+                </Border>
+
+
+            </VerticalStackLayout>
+
+
+
+
+        </ScrollView>
+
+
+        <HorizontalStackLayout
+     Grid.Row="4"
+     HorizontalOptions="Center"
+     Spacing="2"
+     VerticalOptions="EndAndExpand">
+
+            <Label Text="Quer oferecer os seus serviços?" />
+            <Label
+         FontAttributes="Bold"
+         Text="Entre aqui"
+         TextColor="Blue">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="TaoProf" Tapped="TaoProf_Tapped" />
+                </Label.GestureRecognizers>
+
+            </Label>
+
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

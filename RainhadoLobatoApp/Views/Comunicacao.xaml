@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScheduleListUI.Views.Comunicacao"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="">
+
+
+
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="20">
+
+            <!--  Cabeçalho  -->
+            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                <Image HeightRequest="24" Source="icon_comunicacao.png" />
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    Text="Comunicação"
+                    VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <!--  Imagem com cantos arredondados  -->
+            <Frame
+                Padding="0"
+                CornerRadius="16"
+                HasShadow="True">
+                <Image
+                    Aspect="AspectFill"
+                    HeightRequest="300"
+                    Source="pascom2.jpg" />
+            </Frame>
+
+            <!--  Texto  -->
+            <Label
+                FontSize="14"
+                LineHeight="1.4"
+                Text="A PASCOM (Pastoral da Comunicação) da Paróquia Nossa Senhora das Dores tem como missão evangelizar  através dos meios digitais. Atuamos na cobertura de celebrações, eventos paroquiais e na produção             de conteúdo para as redes sociais, aproximando a comunidade da vida da Igreja.&#10;                 Com fé e compromisso, usamos a comunicação como ponte entre a paróquia e os fiéis, levando a             mensagem de Cristo a todos os cantos – seja por uma foto, uma transmissão ao vivo ou uma simples              postagem."
+                TextColor="Black" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

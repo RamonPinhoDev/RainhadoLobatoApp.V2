@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <ContentPage
+    x:Class="ScheduleListUI.Views.HomePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+   
+
+    <ScrollView BackgroundColor="White" Padding="10">
+        <VerticalStackLayout>
+
+
+            <Label
+                x:Name="LblNomeUsuario"
+                Margin="0,10,0,0"
+                FontAttributes="Bold"
+                FontSize="Large"
+                HorizontalOptions="Center" />
+
+            <Grid
+                Margin="0,50,0,40"
+                RowDefinitions="Auto, Auto, Auto, Auto,Auto, *"
+                RowSpacing="20">
+
+                <Label
+                    Grid.Row="0"
+                    Margin="5"
+                    FontAttributes="Bold"
+                    FontSize="25"
+                    Text="Destaques"
+                    TextColor="black" />
+
+                <Frame
+                    Grid.Row="1"
+                    Padding="0"
+                    BackgroundColor="White"
+                    CornerRadius="15"
+                    HasShadow="True">
+                    <CarouselView
+                        x:Name="carouselView"
+                        IndicatorView="indicatorView"
+                        ItemsSource="{Binding Destaques}">
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+
+                                    <Image
+                                        HeightRequest="300"
+                                        HorizontalOptions="Center"
+                                        Source="{Binding Descricao}"
+                                        WidthRequest="400" />
+
+                                </StackLayout>
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+                </Frame>
+
+                <IndicatorView
+                    x:Name="indicatorView"
+                    Grid.Row="2"
+                    HorizontalOptions="Center"
+                    IndicatorColor="LightGray"
+                    SelectedIndicatorColor="#2196F3" />
+
+                <Label
+                    Grid.Row="3"
+                    Margin="5"
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    Text="Pastorais"
+                    TextColor="Black" />
+
+                <CollectionView
+                    Grid.Row="4"
+                    Margin="5"
+                    BackgroundColor="Transparent"
+                    ItemsSource="{Binding Pastorais}"
+                    SelectionMode="None">
+
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout ItemSpacing="20" Orientation="Horizontal" />
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <VerticalStackLayout>
+                                <Border
+                                    BackgroundColor="Transparent"
+                                    HeightRequest="80"
+                                    StrokeShape="RoundRectangle 16"
+                                    StrokeThickness="0"
+                                    WidthRequest="80">
+                                    <ImageButton
+                                        Aspect="Fill"
+                                        BackgroundColor="Transparent"
+                                        Command="{Binding BindingContext.NavegarParaPastoralCommand, Source={RelativeSource AncestorType={x:Type ContentPage}}}"
+                                        CommandParameter="{Binding .}"
+                                        CornerRadius="15"
+                                        HeightRequest="80"
+                                        Source="{Binding ImageUrl}"
+                                        WidthRequest="80" />
+                                </Border>
+                                <Label
+                                    FontAttributes="Bold"
+                                    HorizontalTextAlignment="Center"
+                                    LineBreakMode="WordWrap"
+                                    MaxLines="2"
+                                    Text="{Binding Nome}"
+                                    TextColor="Black"
+                                    VerticalTextAlignment="Center" />
+                            </VerticalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
